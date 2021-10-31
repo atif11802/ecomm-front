@@ -1,0 +1,51 @@
+.signin__containerHeader {
+	margin: auto;
+	background-color: #6fb554;
+	margin-top: 100px;
+	width: 70%;
+	height: 65px;
+	border-radius: 20px 20px 0 0;
+}
+
+.signin__containerHeader > h2 {
+	margin: auto;
+	text-align: center;
+	padding-top: 15px;
+	color: #fff;
+	font-family: Ubuntu;
+}
+.signin__containerForm {
+	margin: auto;
+	text-align: center;
+}
+
+.signin__containerFormInput {
+	margin-top: 20px;
+}
+
+.signin__containerFormInput > input {
+	height: 50px;
+	width: 380px;
+	border-radius: 25px;
+	padding-left: 20px;
+	font-size: 20px;
+	border: none;
+	background-color: whitesmoke;
+}
+
+.signin__containerForm > form > button {
+	height: 50px;
+	width: 400px;
+	border-radius: 25px;
+	margin-top: 20px;
+	border: none;
+	cursor: pointer;
+	background-color: #6fb554;
+	color: #fff;
+	font-size: 20px;
+}
+
+.signin__containerWarning > h2 {
+	margin: auto auto;
+	text-align: center;
+}

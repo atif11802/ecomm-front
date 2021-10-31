@@ -1,0 +1,11 @@
+.cardItem {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/* flex: 33.33; */
+	margin-left: 40px;
+	min-width: 300px;
+
+	min-height: 250px;
+}

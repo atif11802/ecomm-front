@@ -1,0 +1,55 @@
+.admindashboard {
+	margin-top: 20px;
+}
+
+.admindashboard__header {
+	margin: auto auto;
+	text-align: center;
+}
+
+.admindashboard__left {
+	width: 300px;
+	border: 1px solid black;
+}
+
+.admindashboard__leftLinks {
+	border-bottom: 1px solid black;
+	padding: 10px 20px;
+	margin: auto;
+	text-align: center;
+}
+
+.admindashboard__leftLinks > a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.admindashboard__leftLinks > p {
+	font-size: 20px;
+}
+
+.admindashboard__container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.admindashboard__right {
+	width: 700px;
+	border: 1px solid black;
+}
+
+.admindashboard__rightHeader {
+	margin: auto;
+	text-align: center;
+}
+
+.admindashboard__rightHeader > p {
+	font-size: 20px;
+	border-bottom: 1px solid;
+}
+
+.admindashboard__rightInfo {
+	margin-left: 20px;
+}

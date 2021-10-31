@@ -1,0 +1,32 @@
+.createcategory {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.createcategory > form > input {
+	width: 500px;
+	height: 50px;
+	border: none;
+	background-color: #d0eec5;
+	padding: 5px 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.createcategory > form {
+	display: flex;
+	flex-direction: column;
+}
+
+.createcategory__Header {
+	margin: auto;
+	text-align: center;
+}
+
+.createcategory__back {
+	cursor: pointer;
+	text-decoration: underline;
+}

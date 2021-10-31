@@ -1,0 +1,35 @@
+.managecard {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding: 0px 15px;
+	border: 1px solid black;
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+.managecard__title {
+	flex: 0.3;
+}
+
+.managecard__middle {
+	flex: 0.3;
+}
+
+.managecard__right {
+	flex: 0.3;
+}
+
+.managecard__middle > button {
+	background-color: rgb(250, 246, 1);
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.managecard__right > button {
+	background-color: rgb(250, 1, 1);
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}

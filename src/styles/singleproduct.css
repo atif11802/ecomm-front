@@ -1,0 +1,24 @@
+.singleProduct {
+	margin-top: 40px;
+	display: flex;
+}
+
+.singleProduct__leftheaderItemLeft > img {
+	width: 400px;
+}
+
+.singleProduct__leftheaderItem {
+	display: flex;
+}
+
+.singleProduct__leftheaderItemRight {
+	margin-left: 20px;
+	width: 400px;
+
+	overflow-wrap: anywhere;
+}
+
+.singleProduct__right > h1 {
+	margin: auto;
+	text-align: center;
+}

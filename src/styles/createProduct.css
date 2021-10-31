@@ -1,0 +1,48 @@
+.createproduct__header {
+	margin: auto;
+	text-align: center;
+}
+
+.createproduct__header > h2 {
+	font-size: 30px;
+}
+
+.createproduct > form {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 800px; */
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+form > .createproduct__form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+form > .createproduct__form > label {
+	margin-bottom: 10px;
+}
+
+form > .createproduct__form > input {
+	height: 40px;
+	padding: 5px 20px;
+}
+
+form > .createproduct__form > select {
+	height: 40px;
+	padding: 5px 20px;
+}
+
+form > button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 40px;
+	border: none;
+	background-color: #a3cf92;
+	cursor: pointer;
+}

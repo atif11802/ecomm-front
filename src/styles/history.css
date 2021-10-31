@@ -1,0 +1,12 @@
+.history__items {
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.product__details {
+	display: flex;
+}
+
+.product__details > p {
+	margin-left: 50px;
+}

@@ -1,0 +1,46 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #6fb554;
+	font-family: "Ubuntu", sans-serif;
+	height: 50px;
+	align-items: center;
+}
+
+.header > a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header__left {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.header__left > h2 {
+	margin-left: 10px;
+}
+
+.header__left > img {
+	height: 40px;
+}
+
+.header__rightButtons {
+	display: flex;
+}
+
+.header__rightButton {
+	margin-left: 10px;
+}
+
+.header__rightButton > .MuiButton-contained > a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header__right {
+	display: flex;
+}

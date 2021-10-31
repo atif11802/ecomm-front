@@ -1,0 +1,18 @@
+.payment__cardsDropin > button {
+	width: 100%;
+	height: 40px;
+	background-color: forestgreen;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.payment__cardsDropinAdress {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+.payment__cardsDropinAdress > textarea {
+	height: 80px;
+}
